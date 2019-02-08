@@ -47,6 +47,9 @@ The dependencies needed to create the final package.
 }
 ```
 
+# Setup
+To get started install the needed packages with `npm install`.
+
 
 ## Run code
 
