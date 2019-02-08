@@ -65,3 +65,21 @@ class Bike implements hasWheels {
 }
 
 drive(new Bike());
+
+
+// Generics
+//
+//  Like Java, generics allow you to write general purpose classes and functions that can be reused.
+
+//Example class that will create a read only variable.
+
+class Box<T> { // T is a type vairable.
+  constructor(private i:T){}
+
+  get item(): T {
+    return this.i;
+  }
+}
+
+let boxxedNumber = new Box<number>(10);
+console.log(boxxedNumber.item);
